@@ -1,0 +1,41 @@
+@media(min-width:2rem){
+  .nav>li>a:focus, .nav>li>a:hover{
+    background-color: #ff0000
+  }
+
+  .leftNavBar{
+    background-color: #ffff00;
+  }
+  body{
+    background-color: #FCD32B;
+  }
+
+  .heading{
+    text-align: center;
+    font-size: 6em;
+    text-shadow:
+         0.1rem 0.1rem 0 #767676,
+         -0.01rem 0.02rem 0.01rem #737272,
+         -2px 4px 1px #FCD32B,
+         -3px 6px 1px #FCD32B,
+         -4px 8px 1px #A88D20,
+         -5px 10px 1px #A88D20,
+         -6px 12px 1px #A88D20;
+  }
+}
+@media(min-width:60rem){
+
+.leftNavBar{
+  height:100%;
+  top:-2rem;
+}
+
+.navbar{
+  position:relative;
+  top:24rem;
+}
+
+.heading{
+  font-size: 13em;
+}
+}
